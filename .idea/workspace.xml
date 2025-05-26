@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="114bbf33-c172-47f2-820f-27a3acf9974d" name="Changes" comment="unit 15">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="thopithan &lt;thopithan.eng.uk@icloud.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2vDyCnOgups8vdytJbDChBx9iU9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.CV.html.executor": "Run",
+    "JavaScript Debug.Feedback.html.executor": "Run",
+    "JavaScript Debug.Interest.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/thopithankanthakumar/Desktop/unit 15/web_design unit 15/logo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/logo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="114bbf33-c172-47f2-820f-27a3acf9974d" name="Changes" comment="" />
+      <created>1743693814066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743693814066</updated>
+      <workItem from="1743693815400" duration="516000" />
+      <workItem from="1743694343694" duration="18948000" />
+      <workItem from="1743759194254" duration="13000" />
+      <workItem from="1743759213680" duration="3404000" />
+      <workItem from="1743926911641" duration="13994000" />
+      <workItem from="1744205016790" duration="4623000" />
+      <workItem from="1744283156570" duration="6134000" />
+      <workItem from="1746527935765" duration="1076000" />
+      <workItem from="1746609003448" duration="1584000" />
+      <workItem from="1746693574707" duration="7629000" />
+      <workItem from="1747124972680" duration="4599000" />
+      <workItem from="1747136805585" duration="3000" />
+      <workItem from="1747138500620" duration="3341000" />
+      <workItem from="1747307219419" duration="3766000" />
+      <workItem from="1747819384703" duration="1330000" />
+      <workItem from="1747904191276" duration="5917000" />
+      <workItem from="1748076700803" duration="9774000" />
+      <workItem from="1748275255486" duration="156000" />
+      <workItem from="1748275423204" duration="1217000" />
+      <workItem from="1748277299579" duration="547000" />
+    </task>
+    <task id="LOCAL-00001" summary="unit 15">
+      <option name="closed" value="true" />
+      <created>1748276022926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748276022926</updated>
+    </task>
+    <task id="LOCAL-00002" summary="unit 15">
+      <option name="closed" value="true" />
+      <created>1748276088044</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748276088044</updated>
+    </task>
+    <task id="LOCAL-00003" summary="unit 15">
+      <option name="closed" value="true" />
+      <created>1748277181478</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748277181478</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="MATCH_CASE" value="true" />
+                  <option name="REGEX" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="unit 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="unit 15" />
+  </component>
+</project>

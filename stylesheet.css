@@ -1,0 +1,383 @@
+﻿
+
+/* Beginning of body, navigation, logo, page-heading and header*/
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	font-family: sans-serif;
+
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	background: black;
+	padding: 10px 20px;
+	justify-content: space-between; /* this is make Logo on the left and navigation on the right */
+	border-bottom: 4px solid #FF9500;
+
+}
+.header-content {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.logo {
+	height: 50px; /* this is for logo size */
+	margin-right: 10px;
+
+}
+
+.webpage_name{
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+
+.topnav {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end; /* this is for aligning navigation menu on right side*/
+	background-color: black;
+	overflow: initial;
+	flex-wrap: nowrap;
+	border: 4px solid #FF9500;
+	border-radius: 5px;
+	gap: 50px; /* this is for maintaining gap between text in navigation menu*/
+
+}
+.topnav a {
+	color: white;
+	text-align: left;
+	padding: 14px 16px;
+	font-size: 20px;
+	display: block;
+}
+
+/* Hover effect for links */
+.topnav a:hover {
+	background-color: #FF9500;
+	color: black;
+}
+
+.page-heading {
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 20px;
+	color: white; /* Change to match your theme */
+}
+
+/* end of body, navigation, logo, page-heading and header*/
+
+
+
+
+
+
+/* Beginning of CV page*/
+
+/* Beginning of CV image, address, name and DOB*/
+
+.CV-name-image-address-dob-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px;
+	gap: 15px;
+	margin: 25px;
+	border: 4px solid #FF9500; /* Added Border */
+	border-radius: 5px; /* Optional for rounded corners */
+}
+.CV-image-left-column, .details-right-column {
+	flex: 1; /* Equal width columns */
+	text-align: center;
+}
+.CV-name-image-address-dob-container .CV-image-left-column {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.CV-name-image-address-dob-container .details-right-column {
+	text-align: left; /* Text aligned to the left */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* End of CV image, address, name and DOB*/
+
+
+
+/* Beginning of qualification  table*/
+
+.qualification-container {
+	display: flex;
+	flex-direction: column; /* Stack elements vertically */
+	align-items: center; /* Center align items */
+	padding: 50px;
+	gap: 15px;
+	border: 4px solid #FF9500;
+	border-radius: 5px;
+	background-color: black;
+	width: 90%;
+	margin: auto; /* Centers the container */
+}
+
+.qualification-heading {
+	text-align: center;
+	color: white;
+	font-size: 34px;
+	margin-bottom: 10px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 22px;
+}
+
+th, td {
+	padding: 15px;
+	text-align: center;
+	border: #FF9500 4px solid;
+}
+td {
+	color: white; /* right-side text colour */
+
+}
+.dark-column {
+	background-color: Black;
+	font-weight: bold;
+	border: #FF9500 4px solid;
+}
+
+/* End of qualification  table*/
+
+
+
+/* Beginning of experience and skills */
+
+.experience-skills-container {
+	display: flex;
+	align-items: center;
+	justify-content: center; /* Centers both columns */
+	padding: 50px;
+	gap: 50px;
+	margin: 25px;
+	border: 4px solid #FF9500; /* Added Border */
+	border-radius: 5px;
+}
+
+.experience-left-column, .skills-right-column {
+	flex: 1;
+	border: #FF9500 4px solid;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* Centers everything inside */
+	text-align: center; /* Ensures text is centered */
+}
+
+/* Ensures the heading is centered */
+.experience-skills-heading {
+	text-align: center;
+	color: white;
+	font-size: 34px;
+	margin-bottom: 10px;
+}
+
+/* Centers the bullet points */
+.experience-skills-list {
+	color: white;
+	font-size: 22px;
+	padding-left: 0; /* Remove default padding */
+	text-align: center; /* Center bullets and text */
+	list-style-position: inside; /* Keeps bullets close to text */
+}
+
+/* End of experience and skills */
+
+/* End of CV page*/
+
+
+
+
+/* Beginning of Feedback page*/
+
+form {
+	width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 4px solid #FF9500;
+	border-radius: 5px;
+	text-align: center;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	color: white; /* Set label text color to white */
+	text-align: center;
+	font-size: 24px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 4px solid #FF9500;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color: white;
+}
+
+textarea {
+	height: 120px;
+}
+
+input[type="submit"] {
+	background-color: white;
+	color: black;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+	background-color: #FF9500;
+}
+/* ... end of form style ... */
+
+/* Checkbox styling */
+.checkbox-label {
+	display: flex;
+	align-items: center;
+	color: white;
+	font-size: 16px;
+	margin-top: 10px;
+
+}
+
+/* Style checkbox */
+.checkbox-label input {
+	width: 25px;
+	height: 25px;
+	margin-right: 20px;
+	accent-color: #FF9500; /* Changes the tick color */
+}
+
+/* Style link */
+.checkbox-label a {
+	color: #FF9500;
+	text-decoration: none;
+}
+
+/* End of Feedback page*/
+
+
+
+
+
+
+
+/* Beginning of Interest page*/
+
+.interest-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px;
+	gap: 15px;
+	margin: 25px;
+	border: 4px solid #FF9500; /* Added Border */
+	border-radius: 5px; /* Optional for rounded corners */
+}
+.left-column, .right-column {
+	flex: 1; /* Equal width columns */
+	text-align: center;
+}
+.interest-container .left-column {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.interest-container .right-column {
+	text-align: left; /* Text aligned to the left */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.btn {
+	background-color: white;
+	color: black;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 18px;
+}
+.btn:hover {
+	background-color: #FF9500;
+}
+.button-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+
+/* End of Interest page*/
+
+
+
+
+/* Beginning of footer*/
+
+.footer {
+	background: black; /* Dark background for footer */
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	 border: #FF9500 4px solid ;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+	margin: 0 10px;
+}
+.social-icons {
+	margin-top: 10px;
+}
+.social-icons a {
+	display: inline-flex; /* Aligns icon properly */
+	align-items: center;
+	justify-content: center;
+	width: 40px; /* Adjust size as needed */
+	height: 40px;
+	background-color: #fff; /* Change to your preferred color */
+	border-radius: 50%; /* Makes the background circular */
+	margin: 0 5px;
+}
+.social-icons img {
+	width: 20px;
+	height: 20px;
+
+}
+
+/* End  of footer*/
+
+

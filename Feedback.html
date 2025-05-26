@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Text</title>
+</head>
+
+<header class="header">
+  <div class="header-content">
+    <a href="index.html"><img src="logo/websitelogo.svg" alt="Company Logo" class="logo"></a>
+    <a href="index.html"><span class="webpage_name">Myself</span></a>
+  </div>
+  <div class="topnav">
+    <a href="index.html">CV</a>
+    <a href="Interest.html">Interest</a>
+    <a href="Feedback.html">Feedback</a>
+  </div>
+</header>
+
+<body style="background-color:black;">
+
+<h1 class="page-heading"> Feedback </h1>
+
+<div class="full-width-container">
+  <form onsubmit="return validateForm()">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="feedback">Comments</label>
+    <textarea id="feedback" name="feedback" required></textarea>
+
+    <label class="checkbox-label">
+      <input type="checkbox" id="terms" required>
+      I agree to contact me at any time.
+    </label>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<script>
+  function validateForm() {
+    // Get form values
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const feedback = document.getElementById('feedback').value;
+    const terms = document.getElementById('terms').checked;
+
+    // Check if name is empty
+    if (name.trim() === "") {
+      alert("Please enter your name.");
+      return false;
+    }
+
+    // Check if email is valid
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!emailPattern.test(email)) {
+      alert("Please enter a valid email address.");
+      return false;
+    }
+
+    // Check if feedback is empty
+    if (feedback.trim() === "") {
+      alert("Please enter your feedback.");
+      return false;
+    }
+
+    // Check if terms checkbox is checked
+    if (!terms) {
+      alert("You must agree to the terms and conditions.");
+      return false;
+    }
+
+    // If everything is valid, show a thank you message
+    showThankYou();
+    return false; // Prevent form submission for demo purposes
+  }
+
+  function showThankYou() {
+    alert("Thank you for your feedback!");
+  }
+</script>
+
+
+
+
+<br>
+<br>
+<br>
+
+
+<footer class="footer">
+  <p> Contact Me </p>
+  <p>
+    <a href="tel:07744545454">07744545454</a> | <a href="mailto:Thopi@outlook.com">Thopi@outlook.com</a>
+  </p>
+  <div class="social-icons">
+    <a href="https://www.instagram.com"><img src="logo/instagram.png" alt="Instagram"></a>
+    <a href="https://www.facebook.com "><img src="logo/facebook.png" alt="Facebook"></a>
+    <a href="https://x.com/home"><img src="logo/twittericon.png" alt="Twitter"></a>
+    <br><br>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>

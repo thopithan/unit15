@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interest</title>
+</head>
+
+<header class="header">
+    <div class="header-content">
+        <a href="index.html"><img src="logo/websitelogo.svg" alt="Company Logo" class="logo"></a>
+        <a href="index.html"><span class="webpage_name">Myself</span></a>
+
+    </div>
+    <div class="topnav">
+        <a href="index.html">CV</a>
+        <a href="Interest.html">Interest</a>
+        <a href="Feedback.html">Feedback</a>
+    </div>
+</header>
+
+<body style="background-color:black;">
+
+<h1 class="page-heading"> Interest </h1>
+
+
+
+<div class="interest-container">
+    <div class="left-column">
+      <img src="image/sport.jpg" alt="Image of cricket equipment or sports activity" style="width:70%">
+    </div>
+    <div class="right-column">
+        <h2 style="text-align: center;color: white; font-size: 39px"><strong>Sports</strong></h2>
+        <p style="text-align: center;color: white; font-size: 25px"> I like cricket </p>
+        <div class="button-container">
+            <a href="https://www.icc-cricket.com/">
+                <button class="btn"> ICC Website </button>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<div class="interest-container">
+    <div class="left-column">
+        <img src="image/music.jpg" alt="Image representing music, such as headphones or instruments" style="width:70%">
+    </div>
+    <div class="right-column">
+        <h2 style="text-align: center;color: white; font-size: 39px"><strong>Music</strong></h2>
+        <p style="text-align: center;color: white; font-size: 25px"> I like cricket </p>
+        <div class="button-container">
+            <button class="btn" onclick="openAudioInSameTab()">Play Song</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openAudioInSameTab() {
+        const audioHTML = `
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <title>Music</title>
+            <style>
+                body {
+                    margin: 0;
+                    background-color: #000;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                    color: white;
+                    text-align: center;
+                }
+                .container {
+                    width: 80%;
+                    max-width: 400px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #333;
+                    padding: 20px;
+                    border-radius: 10px;
+                }
+                .image-container {
+                    width: 200px;
+                    height: 200px;
+                    background-image: url('image/music.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    border-radius: 10px;
+                    margin-bottom: 20px;
+                }
+                audio {
+                    width: 80%;
+                    margin-top: 20px;
+                }
+                .back-button {
+                    background-color: white;
+                    color: black;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    margin-top: 20px;
+                }
+                .back-button:hover {
+                    background-color: #FF9500;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <div class="image-container"></div>
+                <audio controls autoplay>
+                    <source src="audio/song.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+               <a href="Interest.html">
+                    <button class="back-button">Go Back</button>
+                </a>
+            </div>
+        </body>
+        </html>
+        `;
+
+        document.documentElement.innerHTML = audioHTML;
+    }
+</script>
+
+
+
+
+
+
+
+<div class="interest-container">
+    <div class="left-column">
+        <img src="image/Pubgmobile.jpg" alt="Screenshot from PUBG Mobile game" style="width:70%">
+    </div>
+    <div class="right-column">
+        <h2 style="text-align: center;color: white; font-size: 39px"><strong>Game</strong></h2>
+        <p style="text-align: center;color: white; font-size: 25px"> I like cricket </p>
+        <div class="button-container">
+            <a href="forms.html">
+                <button class="btn"> See Images </button>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="interest-container">
+    <div class="left-column">
+        <img src="image/cookery.jpg" alt="Image of food or cooking activity" style="width:70%">
+    </div>
+    <div class="right-column">
+        <h2 style="text-align: center;color: white; font-size: 39px"><strong>Cookery</strong></h2>
+        <p style="text-align: center;color: white; font-size: 25px"> I like cricket </p>
+        <div class="button-container" id="content">
+            <button class="btn" onclick="openVideoInNewTab()">Watch YouTube Video</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openVideoInNewTab() {
+        const videoHTML = `
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <title>Cookery Video</title>
+        <style>
+          body {
+            margin: 0;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column; /* Ensures the button is below the video */
+            color: white;
+          }
+          iframe {
+            width: 80%;
+            height: 80%;
+            max-width: 960px;
+            border: none;
+          }
+          .back-button {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+          }
+          .back-button:hover {
+            background-color: #FF9500;
+          }
+        </style>
+      </head>
+      <body>
+        <iframe
+          src="https://www.youtube.com/embed/bj91QB3acds?autoplay=1"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+
+        <!-- Go Back Button Below the Video -->
+        <a href="Interest.html">
+          <button class="back-button">Go Back</button>
+        </a>
+      </body>
+      </html>
+    `;
+        document.documentElement.innerHTML = videoHTML;
+    }
+</script>
+
+
+
+
+<div class="interest-container">
+    <div class="left-column">
+        <img src="image/Faith.jpg" alt="Image representing faith or spirituality" style="width:70%">
+    </div>
+    <div class="right-column">
+        <h2 style="text-align: center;color: white; font-size: 39px"><strong>Faith</strong></h2>
+        <p style="text-align: center;color: white; font-size: 25px"> I like cricket </p>
+        <div class="button-container">
+            <a href="image/Faith.jpg" target="_blank">
+                <button class="btn"> See Images </button>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="interest-container">
+    <div class="left-column">
+        <img src="image/travel.jpg" alt="Scenic travel destination, Sri Lanka" style="width:70%">
+    </div>
+    <div class="right-column">
+        <h2 style="text-align: center;color: white; font-size: 39px"><strong>Travel</strong></h2>
+        <p style="text-align: center;color: white; font-size: 25px"> I like cricket </p>
+        <div class="button-container">
+            <a href="https://www.srilanka.travel/">
+                <button class="btn">Sri Lanka</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <p> Contact Me </p>
+    <p>
+        <a href="tel:07744545454">07744545454</a> | <a href="mailto:Thopi@outlook.com">Thopi@outlook.com</a>
+    </p>
+    <div class="social-icons">
+        <a href="https://www.instagram.com"><img src="logo/instagram.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com "><img src="logo/facebook.png" alt="Facebook"></a>
+        <a href="https://x.com/home"><img src="logo/twittericon.png" alt="Twitter"></a>
+        <br><br>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
